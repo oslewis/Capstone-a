@@ -6,9 +6,9 @@ from flask_sqlalchemy import SQLAlchemy
 import app
 import models as models
 from app import create_app
-from models import Cashflow, Debt, User, setup_db
+from models import Cashflow, Debt, setup_db
 
-class Capstone_me_TestCase(unittest.TestCase):
+class CapstoneTestCase(unittest.TestCase):
     """This class represents the capstone test case"""
 
     def setUp(self):
@@ -63,6 +63,14 @@ class Capstone_me_TestCase(unittest.TestCase):
 
     def tearDown(self):
         pass
+
+
+    def test_given_behavior(self):
+        """Test _____________ """
+        res = self.client().get('/')
+
+        self.assertEqual(res.status_code, 200)
+
 
     def test_get_paginated_cashflow_items(self):
         res = self.client().get('/cashflow')

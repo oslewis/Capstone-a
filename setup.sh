@@ -1,4 +1,4 @@
 export AUTH0_DOMAIN='frosty-firefly-4743.auth0.com'
-export AUTH0_ClIENT_ID='ts-ac4aO8Re9Y4dfkwLCbanj3vm3lwQA'
+export AUTH0_ClIENT_ID='X6w4lLApKXnPVmyto3Hm4UOE3RFj2i8w'
 export API_AUDIENCE='api'
-export CLIENT SECRET='Xc_MCVYBs_7sce_xa8y5JbRWimUViyVgDqL9p_r14no_qiFLw05VlVYWXwWduA_N'
+export CLIENT SECRET='mnlDlQVOzS6S2EBXdWpq0h62X-6U3mG46RhRrfSpwbdX8s_G0xaM5OlnvHzNrQSc'
